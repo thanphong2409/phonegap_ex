@@ -1,0 +1,20 @@
+{
+    "name": "phonegap-app-developer",
+    "description": "PhoneGap Developer app.",
+    "homepage": "http://app.phonegap.com",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/phonegap/phonegap-app-developer.git"
+    },
+    "preferGlobal": "false",
+    "private": "true",
+    "scripts": {
+        "less": "lessc -x resources/less/app.less > www/css/app.css"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "less": "1.6.0",
+        "npm": "1.4.10"
+    }
+}
